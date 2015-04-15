@@ -89,7 +89,8 @@ $( document ).ready(function() {
       .attr("y", viewBoxHeight + 50)
       .attr("width", gridSize * 2)
       .attr("height", gridSize / 2)
-      .style("fill", function(d, i) { return colors[i]; });
+      .style("fill", function(d, i) { return colors[i]; })
+      .attr("class", "legend");
 
     legend.append("text")
       .text(function(d) { return "≥ " + Math.round(d); })
