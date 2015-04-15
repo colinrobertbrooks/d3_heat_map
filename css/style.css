@@ -12,3 +12,13 @@ rect {
   stroke-width: 0.5px;
 }
 
+rect:hover {
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+rect.legend:hover {
+  stroke: #969696;
+  stroke-width: 0.5px;
+}
+
