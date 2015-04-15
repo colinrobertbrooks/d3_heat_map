@@ -1,0 +1,14 @@
+.axis-label {
+  font-weight: bold;
+  letter-spacing: 0.75px;
+}
+
+.legend { 
+  margin-top: 50px;
+}
+
+rect {
+  stroke: #969696;
+  stroke-width: 0.5px;
+}
+
