@@ -11,7 +11,7 @@ $( document ).ready(function() {
     colors = ['#f7fcf5', '#e5f5e0', '#c7e9c0', '#a1d99b', '#74c476', '#41ab5d', '#238b45', '#006d2c', '#00441b'],
     bins = [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100];
 
-  d3.csv('/data/heat_map.csv', function(data) {
+  d3.csv('/d3_heat_map/data/heat_map.csv', function(data) {
     data.forEach(function(d){
       d.mlr_score = +d.mlr_score;
       d.logistic_score = +d.logistic_score;
